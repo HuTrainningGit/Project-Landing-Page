@@ -1,5 +1,7 @@
 * {
-    font-family: Roboto, serif;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', serif;
 }
 
 ul {
@@ -8,5 +10,88 @@ ul {
 
 a {
     text-decoration: none;
-    color: #000;
+}
+
+img {
+    display: flex;
+    text-align: center;
+    background-color: #6d747d;
+}
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10vh;
+    background-color: #1F2937;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+}
+
+.section-1 .header-logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.section-1 .header-logo,
+.section-1 .hero-main,
+.section-1 .hero-secondary,
+.section-1 a {
+    color: #F9FAF8;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+footer {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.section-1 .header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 .header-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+}
+
+.section-1 .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.section-1 .container * {
+    flex: 1 1 50%;  
+}
+
+.section-1 .hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.section-1 .hero-text .hero-main {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.section-1 .hero-text .hero-secondary {
+    font-size: 12px;
+    color: #E5E7EB;
+}
+
+.section-1 .hero-text [type="button"] {
+    background-color: #3b82f6;
+    border: 1px #3b82f6 solid;
+    border-radius: 4px;
+    color: #F9FAF8;
+    font-weight: 600;
+    padding: 2px 16px;
 }
