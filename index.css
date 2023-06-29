@@ -33,9 +33,9 @@ img {
     font-weight: 800;
 }
 
-.section-1 .header-logo,
-.section-1 .hero-main,
-.section-1 .hero-secondary,
+.header-logo,
+.hero-main,
+.hero-secondary,
 .section-1 a {
     color: #F9FAF8;
 }
@@ -71,23 +71,23 @@ footer {
     flex: 1 1 50%;  
 }
 
-.section-1 .hero-text {
+.hero-text {
     display: flex;
     flex-direction: column;
     gap: 2vh;
 }
 
-.section-1 .hero-text .hero-main {
+.hero-text .hero-main {
     font-size: 28px;
     font-weight: 800;
 }
 
-.section-1 .hero-text .hero-secondary {
+.hero-text .hero-secondary {
     font-size: 12px;
     color: #E5E7EB;
 }
 
-.section-1 .hero-text [type="button"] {
+.hero-text [type="button"] {
     background-color: #3b82f6;
     border: 1px #3b82f6 solid;
     border-radius: 4px;
