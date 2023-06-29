@@ -44,8 +44,8 @@ img {
 .section-3,
 .section-4,
 footer {
-    padding-left: 15vw;
-    padding-right: 15vw;
+    padding-left: 13vw;
+    padding-right: 13vw;
 }
 
 .section-1 .header {
@@ -130,4 +130,64 @@ footer {
     background-color: inherit;
     min-width: 15px;
     min-height: 15px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 16px;
+    font-style: italic;
+    text-align: justify;
+    padding: 0 3vw;
+}
+
+.author {
+    color: #1F2937;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.section-4 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.section-4 .container {
+    border-radius: 1vw;
+    background-color: #3882f6;
+    padding: 3vh 5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.section-4 .container p {
+    color: #E5E7EB;
+}
+
+.section-4 .container .header {
+    font-weight: 700;
+}
+
+.section-4 .container [type="button"] {
+    align-self: center;
+    background-color: inherit;
+    border: 2px solid #E5E7EB;
+    border-radius: 1vw;
+    color: #E5E7EB;
+    font-size: 14px;
+    padding: 3px 6px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 3vh;
 }
